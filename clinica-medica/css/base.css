@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    font-size: 20px;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+}
+.menu {
+    width: 25%;
+    background-color: #e0d999;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+.lista ul{ 
+    list-style-type: none;
+    color: white;
+}
+.lista ul li{
+    margin-bottom: 7px;
+}
+.centralizar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mensagem{
+    margin-top: 20px;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.row{
+    margin: 5px;
+}
+label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+.botao{
+    padding: 10px;
+    width:100px;
+    
+}
